@@ -2,6 +2,6 @@
 This repository includes all the files that was built for our course (how to build a website from scratch).
 
 If you want to build your own site like this, then come to our site 
-  htps://thejsdojo.com
+  https://thejsdojo.com
   
 See you there.
