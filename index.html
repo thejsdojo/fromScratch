@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Box Fresh Kicks</title>
+		<link href="css/reset.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:300,400' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		
+	</head>
+	<body onload="init();">
+		<header>
+			<div class="container">
+				<h1>Box Fresh Kicks
+				</h1><nav>
+					<a href="#home">Home</a>
+					<a href="#aboutUs">About Us</a>
+					<a href="#buy">Buy</a>
+					<a href="#contactUs">Contact Us</a>
+				</nav>
+			</div>
+		</header>
+		<div class="container" id="home">
+			<ul class="slider" id="slider">
+				<li>
+					<div class="sliderDetails">
+						<h2>just in, box fresh</h2>
+						<button type="button">
+							Buy Now
+						</button>
+					</div><img src="images/nikered.jpg" alt="Red Nike Trainers" />
+				</li>
+				<li>
+					<div class="sliderDetails">
+						<h2>New womens trainers</h2>
+						<button type="button">
+							Buy Now
+						</button>
+					</div><img src="images/nikepink.jpg" alt="Pink Nike Trainers" />
+				</li>
+				<li>
+					<div class="sliderDetails">
+						<h2>Limited edition</h2>
+						<button type="button">
+							Buy Now
+						</button>
+					</div><img src="images/nikelimited.jpg" alt="Limited Edition Nike Trainers" />
+				</li>
+			</ul>
+		</div>
+		<section class="aboutUs" id="aboutUs">
+			<div class="container">
+				<h2>The freshest kicks at an affordable price</h2>
+				<p>Necessities social challenges, crisis situation NGO, global leaders; accelerate progress transformative achieve challenges of our times. Capacity building save the world innovation indicator medicine Jane Jacobs eradicate many voices voice. Disruptor peaceful; change-makers, scalable, stakeholders; leverage meaningful work.</p>
+				<p>Synthesize protect deep engagement inspire social change fight against oppression. Cross-agency coordination local solutions change movements innovate transform the world citizens of change activism global health Bono.</p>
+			</div>
+		</section>
+		<div class="container">
+			<section class="buy" id="buy">
+				<h2>Just In</h2>
+				<div class="product">
+					<img src="images/nikewhite.jpg" alt="Nike White Trainers" />
+					<h3>White Trainers</h3>
+					<p>But a man who doesn't care about the world doesn't spend half his fortune on a plan to save it. And isn't so wounded when it fails that he goes into hiding.</p>
+					<span onclick="showMore(this);" class="showMore">Show More</span>
+					<div class="showMoreElement"><p>I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+					<button>
+						Buy Now
+					</button></div>
+				</div><div class="product">
+					<img src="images/nikeblack.jpg" alt="Nike Black Trainers" />
+					<h3>Black Trainers</h3>
+					<p>But a man who doesn't care about the world doesn't spend half his fortune on a plan to save it. And isn't so wounded when it fails that he goes into hiding.</p>
+					<span onclick="showMore(this);" class="showMore">Show More</span>
+					<div class="showMoreElement"><p>I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+					<button>
+						Buy Now
+					</button></div>
+				</div><div class="product">
+					<img src="images/nikeblue.jpg" alt="Nike Blue Trainers" />
+					<h3>Blue Trainers</h3>
+					<p>But a man who doesn't care about the world doesn't spend half his fortune on a plan to save it. And isn't so wounded when it fails that he goes into hiding.</p>
+					<span onclick="showMore(this)" class="showMore">Show More</span>
+					<div class="showMoreElement"><p>I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+					<button>
+						Buy Now
+					</button></div>
+				</div>
+			</section>
+		</div>
+			<section class="contactUs" id="contactUs">
+				<div class="container">
+					<h2>Contact Us</h2>
+					<p>We love hearing from our customers, please fill in the contact us form and we will be in touch within 24 hours</p><div class="contactUsForm">
+						<input type="text" id="name" placeholder="Name" />
+						<input type="email" id="email" placeholder="Email" />
+						<textarea id="message" placeholder="Message"></textarea>
+						<button type="button" onclick="sendMessage();">
+							Submit message
+						</button>
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<script src="javascript/script.js"></script>
+		
+	</body>
+</html>
